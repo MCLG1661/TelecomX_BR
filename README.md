@@ -19,10 +19,10 @@ Este projeto, o segundo da terceira etapa do ONE G9 BR, tem como objetivo realiz
 
 ## 📊 Etapas da Análise
 
-1 - Importar e manipular dados de uma API de forma eficiente.
-2 - Aplicar os conceitos de ETL (Extração, Transformação e Carga) na preparação dos dados.
-3 - Criar visualizações de dados estratégicas para identificar padrões e tendências.
-4 - Realizar uma Análise Exploratória de Dados (EDA) e gerar um relatório com insights relevantes.
+1 - **Importar e Manipular Dados de uma API de forma eficiente.**
+2 - **Aplicar Conceitos de ETL (Extração, Transformação e Carga) na Preparação dos Dados.**
+3 - **Criar Visualizações Estratégicas para Identificar Padrões e Tendências.**
+4 - **Realizar Análise Exploratória dos Dados (EDA) Para Gerar Um Relatório com Insights Relevantes.
 
 ---
 
