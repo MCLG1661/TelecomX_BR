@@ -1,1 +1,2 @@
-# TelecomX_BR
+Desafio Alura Store : 🛍️ Telecom X BR - Tech Foundation : Especialização Data Science - Módulo : Aprendendo a Fazer ETL (Oracle Next Education G9 BR)
+Este projeto, o segundo da terceira etapa do ONE G9 BR, tem como objetivo realizar uma análise detalhada sobre possíveis motivos da evasão de clientes. Desenvolvido em Python no ambiente Google Colab, o notebook permite visualizar métricas importantes, identificar padrões e gerar insights para tomada de decisão.R
