@@ -25,7 +25,7 @@ Este projeto, o segundo da terceira etapa do ONE G9 BR, tem como objetivo realiz
 
 3 - **Criar Visualizações Estratégicas para Identificar Padrões e Tendências.**
 
-4 - **Realizar Análise Exploratória dos Dados (EDA) Para Gerar Um Relatório com Insights Relevantes.
+4 - **Realizar Análise Exploratória dos Dados (EDA) Para Gerar Um Relatório com Insights Relevantes.**
 
 ---
 
