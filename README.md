@@ -46,7 +46,7 @@ Cerca de 3% dos registros apresentam valores nulos ou inconsistentes.
 
 ---
 
-## 📝 Resumo da Análise de Churn – Telecom X BR (# Principais Insights da EDA)
+## 📝 Resumo da Análise de Churn – Telecom X BR (Principais Insights da EDA)
 
 - A base contém 7.267 clientes, dos quais 26,5% evadiram. Trata-se de um índice elevado e que indica oportunidades de ação estratégica.
 
