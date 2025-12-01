@@ -35,7 +35,7 @@ Este projeto, o segundo da terceira etapa na Tech Foundation 2 do ONE (Oracle Ne
 
 - Os principais fatores associados ao churn foram :
 
-1 - Tipo de contrato: clientes Month-to-month apresentam a maior taxa de churn, enquanto contratos anuais têm as menores taxas.
+1 - Tipo de contrato : clientes Month-to-month apresentam a maior taxa de churn, enquanto contratos anuais têm as menores taxas.
 
 2 - Serviços de segurança online e suporte técnico: clientes sem OnlineSecurity e sem TechSupport têm churn significativamente maior.
 
