@@ -29,6 +29,24 @@ Este projeto, o segundo da terceira etapa na Tech Foundation 2 do ONE (Oracle Ne
 
 ---
 
+## 📝 Resumo da Análise de Churn – Telecom X BR
+
+- A base contém 7.267 clientes, dos quais 26,5% evadiram. Trata-se de um índice elevado e que indica oportunidades de ação estratégica.
+
+- Os principais fatores associados ao churn foram :
+
+1 - Tipo de contrato: clientes Month-to-month apresentam a maior taxa de churn, enquanto contratos anuais têm as menores taxas.
+
+2 - Serviços de segurança online e suporte técnico: clientes sem OnlineSecurity e sem TechSupport têm churn significativamente maior.
+
+3 - Formas de pagamento: o método Electronic Check concentra a maior proporção de evasão.
+
+4 - Tempo de casa (tenure): clientes com menos meses de serviço apresentam maior probabilidade de evasão.
+
+5 - Mensalidade (Monthly Charges): valores mais altos estão associados a maior churn.
+
+Esses padrões sugerem que ações de retenção devem priorizar clientes com contrato mensal, sem serviços complementares e com mensalidades mais altas, especialmente nos primeiros meses de relacionamento.
+
 ## 📎 Como Executar
 
 ---
