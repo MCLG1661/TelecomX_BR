@@ -55,6 +55,15 @@ Para extrair insights valiosos e a partir disso, os demais colegas da equipe de 
 
 Esses padrões sugerem que ações de retenção devem priorizar clientes com contrato mensal, sem serviços complementares e com mensalidades mais altas, especialmente nos primeiros meses de relacionamento.
 
+---
+
+## 📊 Distribuição do Churn
+
+Proporção (%)
+<table> <tr> <th>Churn</th> <th>Proporção</th> </tr> <tr> <td>No</td> <td>71.2%</td> </tr> <tr> <td>Yes</td> <td>25.7%</td> </tr> <tr> <td>Nulo*</td> <td>3.1%</td> </tr> </table>
+
+Cerca de 3% dos registros apresentam valores nulos ou inconsistentes.
+
 ## 📎 Como Executar
 
 ---
