@@ -41,6 +41,11 @@ Cerca de 3% dos registros apresentam valores nulos ou inconsistentes.
 
 ---
 
+## Contagem Absoluta
+<table> <tr> <th>Churn</th> <th>Contagem</th> </tr> <tr> <td>No</td> <td>5174</td> </tr> <tr> <td>Yes</td> <td>1869</td> </tr> </table>
+
+---
+
 ## 📝 Resumo da Análise de Churn – Telecom X BR
 
 - A base contém 7.267 clientes, dos quais 26,5% evadiram. Trata-se de um índice elevado e que indica oportunidades de ação estratégica.
