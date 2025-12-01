@@ -66,6 +66,16 @@ Esses padrões sugerem que ações de retenção devem priorizar clientes com co
 
 ---
 
+## 📋 Estatísticas Gerais do Dataset
+
+🔠 Variáveis Categóricas (Resumo)
+<table> <tr> <th>Coluna</th> <th>Categorias</th> <th>Mais Comum</th> <th>Frequência</th> </tr> <tr> <td>gender</td> <td>2</td> <td>Male</td> <td>3675</td> </tr> <tr> <td>Partner</td> <td>2</td> <td>No</td> <td>3749</td> </tr> <tr> <td>InternetService</td> <td>3</td> <td>Fiber optic</td> <td>3198</td> </tr> <tr> <td>Contract</td> <td>3</td> <td>Month-to-month</td> <td>4005</td> </tr> <tr> <td>PaymentMethod</td> <td>4</td> <td>Electronic check</td> <td>2445</td> </tr> </table>
+
+🔢 Variáveis Numéricas (Resumo)
+<table> <tr> <th>Coluna</th> <th>Média</th> <th>Desvio Padrão</th> <th>Mín.</th> <th>Q1</th> <th>Mediana</th> <th>Q3</th> <th>Máx.</th> </tr> <tr> <td>SeniorCitizen</td> <td>0.163</td> <td>0.369</td> <td>0.0</td> <td>0.0</td> <td>0.0</td> <td>0.0</td> <td>1.0</td> </tr> <tr> <td>tenure</td> <td>32.35</td> <td>24.57</td> <td>0.0</td> <td>9.0</td> <td>29.0</td> <td>55.0</td> <td>72.0</td> </tr> <tr> <td>Monthly</td> <td>64.72</td> <td>30.13</td> <td>18.25</td> <td>35.43</td> <td>70.30</td> <td>89.88</td> <td>118.75</td> </tr> <tr> <td>Total</td> <td>2280.63</td> <td>2268.63</td> <td>18.8</td> <td>400.23</td> <td>1391.00</td> <td>3785.30</td> <td>8684.8</td> </tr> </table>
+
+---
+
 ## 📎 Como Executar
 
 ---
