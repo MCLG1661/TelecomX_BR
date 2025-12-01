@@ -6,7 +6,7 @@ Este projeto, o segundo da terceira etapa na Tech Foundation 2 do ONE (Oracle Ne
 
 ## 📌 Objetivo
 
-Utilizando Python e suas principais bibliotecas, coletar, tratar e analisar dados. Para extrair insights valiosos e a partir disso, os demais colegas da equipe de Data Science poderão avançar para modelos preditivos e desenvolver estratégias para reduzir a evasão (Churn).
+Utilizando Python e suas principais bibliotecas, coletar, tratar e analisar dados. Extraindo insights valiosos para que os demais colegas da equipe de Data Science, avancem para modelos preditivos e consigam desenvolver estratégias para reduzir a evasão (Churn).
 
 ---
 
