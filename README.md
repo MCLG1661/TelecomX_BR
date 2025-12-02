@@ -62,8 +62,9 @@ telecomx-churn/
 3. Análise Descritiva
 4. Análise do Churn
 5. Matriz de Correlação
-6. Conclusões
-7. Ações recomendadas
+6. ETAPA EXTRA — Análise Avançada de Correlação
+7. Conclusões
+8. Ações recomendadas
 
 ---
 
