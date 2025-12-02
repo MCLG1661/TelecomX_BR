@@ -10,7 +10,7 @@ Utilizando Python e suas principais bibliotecas, coletar, tratar e analisar dado
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-Notebook-yellow?logo=googlecolab&logoColor=white)
@@ -20,15 +20,59 @@ Utilizando Python e suas principais bibliotecas, coletar, tratar e analisar dado
 
 ---
 
-## 📊 Etapas da Análise
+## 🔍 Etapas (Análise da distribuição da variável alvo (Churn) para entender o equilíbrio entre clientes que ficaram e os que cancelaram.)
 
-1 - **Importar e Manipular Dados de uma API de forma eficiente.**
+1. Importação e carga dos dados
 
-2 - **Aplicar Conceitos de ETL (Extração, Transformação e Carga) na Preparação dos Dados.**
+Leitura da base via pandas.
 
-3 - **Criar Visualizações Estratégicas para Identificar Padrões e Tendências.**
+Verificação inicial com head(), info() e describe().
 
-4 - **Realizar Análise Exploratória dos Dados (EDA) Para Gerar Um Relatório com Insights Relevantes.**
+2. Limpeza e padronização
+
+Ajuste de strings (lower, replace, strip).
+
+Conversão de variáveis numéricas.
+
+Tratamento de missing values.
+
+Ajuste de inconsistências (gênero, contrato, serviços).
+
+3. Análise Descritiva
+
+Estatísticas de distribuição usando .describe().
+
+Avaliação de variáveis importantes (idade, tenure, monthly charges etc.).
+
+4. Análise do Churn
+
+Visualização da proporção churn vs não churn.
+
+Gráficos de barras para variáveis categóricas:
+
+tipo de contrato
+
+método de pagamento
+
+gênero
+
+serviços adicionais
+
+internet, addon, segurança etc.
+
+5. Matriz de Correlação
+
+Seleção apenas de colunas numéricas.
+
+Cálculo da matriz de correlação.
+
+Heatmap para identificar variáveis relevantes.
+
+---
+
+## 🎯 Objetivo da etapa:
+
+Garantir que os dados estejam prontos para serem explorados de forma mais profunda, além de fornecer uma visão inicial das variáveis que poderão influenciar a evasão dos clientes.
 
 ---
 
@@ -76,7 +120,54 @@ Esses padrões sugerem que ações de retenção devem priorizar clientes com co
 
 ---
 
+## 📎 Como Executar o Projeto
+
+Instale as dependências:
+
+pip install pandas matplotlib seaborn
+
+
+Abra o notebook:
+
+jupyter notebook
+
+
+Execute as células na ordem.
+
+---
+
 ## 📂 Estrutura do Projeto
+
+telecomx-churn/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+│   ├── raw/                  # dados originais (não editar)
+│   │   └── TelecomX_Data.json
+│   ├── interim/              # dados parcialmente processados (opcional)
+│   └── processed/            # dataset final pronto para modelagem
+│       └── telecomx_limpo.csv
+├── notebooks/
+│   ├── 01_data_loading.ipynb         # ETAPA 1-4: extração, limpeza inicial
+│   ├── 02_data_cleaning_etl.ipynb    # ETAPA 4B e 5 (ajustes, Contas_Diarias)
+│   ├── 03_eda.ipynb                  # ETAPA 6-8: análise descritiva e gráficos
+│   └── 04_correlation_and_insights.ipynb  # ETAPA 9-10: correlações e conclusões
+├── src/
+│   ├── __init__.py
+│   ├── data.py               # funções para carregar / salvar / transformar
+│   ├── cleaning.py           # funções reutilizáveis de limpeza e padronização
+│   ├── features.py           # funções de feature engineering (Contas_Diarias, bins)
+│   └── viz.py                # funções que geram gráficos (reutilizáveis)
+├── reports/
+│   ├── figures/              # imagens geradas (png) para README ou relatório
+│   └── final_report.md       # relatório sumarizado (pode ser movido pro README)
+├── docs/
+│   └── data_dictionary.md    # dicionário de dados e definições das colunas
+├── tests/                    # testes unitários (opcional mas recomendado)
+│   └── test_data.py
+└── notebooks_export/         # versões exportadas (html/pdf) dos notebooks
+
 
 ---
 
