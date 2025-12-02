@@ -55,6 +55,18 @@ telecomx-churn/
 
 ---
 
+## 💡 Etapas do Projeto :
+
+1. Importação e carga dos dados
+2. Limpeza e padronização
+3. Análise Descritiva
+4. Análise do Churn
+5. Matriz de Correlação
+6. Conclusões
+7. Ações recomendadas
+
+---
+
 ## 📎 Como Executar o Projeto
 
 Instale as dependências:
