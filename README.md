@@ -68,6 +68,21 @@ telecomx-churn/
 
 ---
 
+## 📊 Visualizações & Insights :
+
+1. Distribuição do Churn — Proporção de clientes que permaneceram vs. saíram.
+Insight: ~26% da base churnou; variável desbalanceada, exige cuidado nas métricas de modelo. 
+2. Churn por Tipo de Contrato — Comparação de taxas de evasão entre Month-to-month, One year, Two year.
+Insight: Contratos Month-to-month apresentam a maior taxa de churn — fidelização reduz evasão.
+3. Tenure x Churn (Boxplot) — Distribuição do tempo de permanência por grupo (churn/no churn).
+Insight: Clientes com tenure baixo concentram a maior parte do churn — onboarding crítico nos primeiros meses.
+4. Custo Mensal x Churn (Boxplot) — Comparação do ticket médio mensal entre quem ficou e quem saiu.
+Insight: Existe tendência de churn maior entre clientes com Custo Mensal elevado — sensibilidade a preço.
+5. Total de Serviços Contratados x Churn — Quantos addons/serviços cada cliente usa vs. churn.
+Insight: Maior número de serviços = menor churn. Engajamento por serviços protege contra evasão.
+
+---
+
 ## 📎 Como Executar o Projeto
 
 Instale as dependências:
