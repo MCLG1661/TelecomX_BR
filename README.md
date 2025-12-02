@@ -1,6 +1,6 @@
 ## Desafio Telecom X BR
 ## 📈 Análise Exploratória de Dados sobre Evasão de Clientes (Churn) - Tech Foundation : Especialização Data Science - Módulo : Aprendendo a Fazer ETL (Oracle Next Education G9 BR)
-Este projeto, o segundo da terceira etapa na Tech Foundation 2 do ONE (Oracle Next Education) G9 BR, tem como objetivo realizar uma análise detalhada sobre possíveis motivos da evasão de clientes. Desenvolvido em Python no ambiente Google Colab, o notebook permite extrair dados da API, processar e tranformar o dataset, visualizar métricas importantes, identificar padrões e gerar insights para posterior modelagem preditiva e tomada de decisão.
+Este desafio/projeto, o segundo da terceira etapa na Tech Foundation 2 do ONE (Oracle Next Education) G9 BR, tem como objetivo realizar uma análise detalhada sobre possíveis motivos da evasão de clientes. Desenvolvido em Python no ambiente Google Colab, o notebook permite extrair dados da API, processar e tranformar o dataset, visualizar métricas importantes, identificar padrões e gerar insights para posterior modelagem preditiva e tomada de decisão.
 
 ---
 
